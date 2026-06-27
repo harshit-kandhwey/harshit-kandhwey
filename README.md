@@ -22,7 +22,7 @@
 
 ---
 
-2.5+ years designing AWS infrastructure and automating operations at **Trianz Digital Consulting** — delivering enterprise cloud migrations for **GE Healthcare, MUFG, and Telenor**.
+I'm a Cloud & DevOps Engineer based in Bangalore who enjoys turning messy infrastructure into clean, automated systems. Currently at Trianz, I work with Fortune 500 clients on enterprise AWS migrations — the kind where uptime and cost both matter.
 
 ---
 
@@ -105,6 +105,8 @@
 ---
 
 ## 📈 Impact at a Glance
+
+Numbers from 2.5 years at Trianz, across GE Healthcare, MUFG, and Telenor:
 
 | Metric | Result |
 |---|---|
