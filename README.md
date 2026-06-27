@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/badge/Email-harshitkandhwey@outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white" alt="Email"/>
 </a>
 &nbsp;
+<a href="./Harshit_Kandhwey_Resume.pdf">
+  <img src="https://img.shields.io/badge/Resume-Download-00B050?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Resume"/>
+</a>
+&nbsp;
 <img src="https://komarev.com/ghpvc/?username=harshit-kandhwey&style=flat-square&color=brightgreen&label=Profile+Views" alt="Profile views"/>
 
 </div>
@@ -19,6 +23,15 @@
 ---
 
 2.5+ years designing AWS infrastructure and automating operations at **Trianz Digital Consulting** — delivering enterprise cloud migrations for **GE Healthcare, MUFG, and Telenor**.
+
+---
+
+## ⚡ Currently
+
+- **At work:** Driving AWS cloud migration pipelines for enterprise clients across healthcare, finance, and telecom
+- **Building:** Extending [Ephemeral Deploy](https://github.com/harshit-kandhwey/ephemeral-deploy) with EKS and Helm-based deployments
+- **Exploring:** Kubernetes, ArgoCD, and GitOps patterns on top of the existing Terraform + ECS stack
+- **Next cert:** AWS DevOps Engineer Professional
 
 ---
 
@@ -124,6 +137,16 @@
 <a href="https://www.credly.com/badges/1f26df72-2ef1-42a8-900e-30ac35d8ff78/public_url" target="_blank">
   <img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS CCP"/>
 </a>
+
+---
+
+## 🐍 Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshit-kandhwey/harshit-kandhwey/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshit-kandhwey/harshit-kandhwey/output/github-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/harshit-kandhwey/harshit-kandhwey/output/github-snake.svg">
+</picture>
 
 ---
 
