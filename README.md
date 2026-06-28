@@ -104,6 +104,22 @@ I'm a Cloud & DevOps Engineer based in Bangalore who enjoys turning messy infras
 
 ---
 
+### [Cloud Instance Recommender](https://github.com/harshit-kandhwey/Cloud-Instance-Recommender)
+
+> Multi-cloud VM rightsizing tool — upload a CSV inventory and get right-sized instance recommendations across AWS, Azure, and GCP. Runs entirely in the browser, no data leaves your machine.
+
+- Rule engine applies **ENV / OS / Workload / Compliance / Min Gen** filters per row — the same logic used in manual cloud assessments, automated
+- **N/2 · N · N+1** rightsizing strategy driven by actual CPU & memory utilization; supports Like-to-Like and Optimized modes simultaneously
+- Exports AWS Pricing Calculator bulk import CSV; [live demo on GitHub Pages](https://harshit-kandhwey.github.io/Cloud-Instance-Recommender/)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
+
+---
+
 ## 📈 Impact at a Glance
 
 Numbers from 2.5 years at Trianz, across GE Healthcare, MUFG, and Telenor:
