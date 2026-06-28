@@ -23,7 +23,9 @@ jobs:
 
       - name: Push snake to output branch
         run: |
-          cd dist
+          mkdir /tmp/snake-output
+          cp dist/github-snake.svg dist/github-snake-dark.svg /tmp/snake-output/
+          cd /tmp/snake-output
           git init
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
