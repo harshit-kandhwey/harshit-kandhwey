@@ -134,18 +134,6 @@ Numbers from 2.5 years at Trianz, across GE Healthcare, MUFG, and Telenor:
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=harshit-kandhwey&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshit-kandhwey&layout=compact&theme=dark&hide_border=true" height="150" alt="Top Languages"/>
-
-</div>
-
----
-
 ## 🏅 Certifications
 
 <a href="https://www.credly.com/badges/fa8ddffb-6007-4d5d-a265-e1d257d02229/public_url" target="_blank">
