@@ -29,7 +29,7 @@ I'm a Cloud & DevOps Engineer based in Bangalore who enjoys turning messy infras
 ## ⚡ Currently
 
 - **At work:** Driving AWS cloud migration pipelines for enterprise clients across healthcare, finance, and telecom
-- **Building:** Extending [Ephemeral Deploy](https://github.com/harshit-kandhwey/ephemeral-deploy) with EKS and Helm-based deployments
+- **Building:** Extending [Ephemeral Deploy](https://github.com/harshit-kandhwey/Ephemeral-Deploy) with EKS and Helm-based deployments
 - **Exploring:** Kubernetes, ArgoCD, and GitOps patterns on top of the existing Terraform + ECS stack
 - **Next cert:** AWS DevOps Engineer Professional
 
@@ -72,14 +72,15 @@ I'm a Cloud & DevOps Engineer based in Bangalore who enjoys turning messy infras
 
 ## 🚀 Featured Projects
 
-### [Ephemeral Deploy — Production AWS/ECS DevOps Pipeline](https://github.com/harshit-kandhwey/ephemeral-deploy)
+### [Ephemeral Deploy — Ephemeral AWS CI/CD Platform](https://github.com/harshit-kandhwey/Ephemeral-Deploy)
 
-> Production-grade containerized REST API deployment on AWS with full observability and keyless CI/CD
+> Full AWS infrastructure provisioned per deploy, tested, then auto-destroyed — **$0 cost at idle**. A Flask + Celery API serves as the workload; every decision in the repo is an infrastructure decision.
 
 - Modular Terraform across **8 modules** (VPC, ECS, RDS, ElastiCache, ECR, IAM, security groups, monitoring) with S3 remote state and per-env isolation
-- **OIDC-based CI/CD** — zero stored credentials; Terraform-native blue-green deployments with SSM active-slot switching
-- Layered secrets pipeline: SSM KMS-encrypted → Secrets Manager → ECS runtime injection
-- Dual observability: **Prometheus + Grafana + CloudWatch**; Fargate Spot dev environments with 30-min TTL — cost per run: **~$0.02**
+- **OIDC-based CI/CD** — zero stored AWS credentials; Terraform-native **blue-green deployments** with SSM slot tracking, automated health checks, and instant rollback
+- 4-tier VPC with least-privilege security groups; VPC endpoints replace the NAT Gateway in dev ($0 vs ~$32/mo)
+- Layered secrets pipeline: SSM KMS-encrypted → Secrets Manager → ECS runtime injection — no secret ever touches code or CI
+- Dual observability: **Prometheus + Grafana + CloudWatch**; Fargate Spot dev environments self-destruct after **45 min** — cost per run: **~$0.02**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
@@ -89,7 +90,7 @@ I'm a Cloud & DevOps Engineer based in Bangalore who enjoys turning messy infras
 
 ---
 
-### [EC2-Docker-Pipeline — 3-Tier Application on AWS](https://github.com/harshit-kandhwey/ec2-docker-pipeline)
+### [EC2-Docker-Pipeline — 3-Tier Application on AWS](https://github.com/harshit-kandhwey/EC2-Docker-Pipeline)
 
 > Full 3-tier app (React + Node.js + MongoDB) deployed on AWS with IaC and automated CI/CD
 
@@ -149,9 +150,9 @@ Numbers from 2.5 years at Trianz, across GE Healthcare, MUFG, and Telenor:
 ## 🐍 Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshit-kandhwey/harshit-kandhwey/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshit-kandhwey/harshit-kandhwey/output/github-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/harshit-kandhwey/harshit-kandhwey/output/github-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://harshit-kandhwey.github.io/harshit-kandhwey/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://harshit-kandhwey.github.io/harshit-kandhwey/github-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://harshit-kandhwey.github.io/harshit-kandhwey/github-snake.svg">
 </picture>
 
 ---
